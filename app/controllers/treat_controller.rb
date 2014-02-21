@@ -1,0 +1,2 @@
+class TreatController < ApplicationController
+end

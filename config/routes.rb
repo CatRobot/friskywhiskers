@@ -1,6 +1,10 @@
 FriskyWhiskers::Application.routes.draw do
   resources :dogs
 
+  get '/puppies', to: 'puppies#puppies'
+
+  root to: 'puppies#puppies'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
